@@ -34,12 +34,12 @@ Decoded bytes: 24
 Execution time: 0.14s     
 ```
 
-It has also unit test integration for readability 
+It also has unit test integration for readability. 
 
 ### References
 - [ref1](https://www2.cs.duke.edu/csed/curious/compression/lzw.html)
-- [ref2]([url](https://en.wikipedia.org/wiki/LZ77_and_LZ78)https://en.wikipedia.org/wiki/LZ77_and_LZ78)
-
+- [ref2](https://en.wikipedia.org/wiki/LZ77_and_LZ78)
+  
 ### Disclaimer
 
 The code provided in this repository is intended to demonstrate the implementation of the LZ77 algorithm using Rust. It serves as a learning resource and may not have undergone extensive testing or optimization for production use.
