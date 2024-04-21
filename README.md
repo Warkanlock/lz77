@@ -28,7 +28,7 @@ You can run this module using: `cargo run <string-to-compress>.`
 > cargo run "aaa"
 Encoded: 2 | Decoded: 4 | Input: 4
 > Encoded result: [LZ77Token { length: 0, distance: 0, char: 97 }, LZ77Token { length: 3, distance: 1, char: 0 }]
-> Decoded result: "aaaa"
+> Decoded result: "aaa"
 Encoded bytes: 24
 Decoded bytes: 24
 Execution time: 0.14s     
