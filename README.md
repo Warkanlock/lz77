@@ -25,10 +25,10 @@ fn decode(&self, data: &Vec<LZ77Token>) -> String {}
 You can run this module using: `cargo run <string-to-compress>.`
 
 ```bash
-> cargo run "aaa"
+> cargo run "aaaa"
 Encoded: 2 | Decoded: 4 | Input: 4
 > Encoded result: [LZ77Token { length: 0, distance: 0, char: 97 }, LZ77Token { length: 3, distance: 1, char: 0 }]
-> Decoded result: "aaa"
+> Decoded result: "aaaa"
 Encoded bytes: 24
 Decoded bytes: 24
 Execution time: 0.14s     
